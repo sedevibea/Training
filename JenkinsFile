@@ -1,0 +1,13 @@
+pipeline {
+    agent any
+    stages {
+        stage('Run test') {
+            steps {
+               script{
+                sh"./mvnw clean install"
+                }
+            }
+        }
+
+    }
+}
