@@ -1,0 +1,6 @@
+pages\SecureAreaPage.class
+pages\DropdownPage.class
+pages\HoversPage.class
+pages\LoginPage.class
+pages\HomePage.class
+pages\HoversPage$FigureCaption.class
