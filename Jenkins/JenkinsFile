@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Run test') {
+        stage('Build') {
             steps {
                script{
-                sh"./mvnw clean install"
+                sh "./mvnw clean install"
                 }
             }
         }
